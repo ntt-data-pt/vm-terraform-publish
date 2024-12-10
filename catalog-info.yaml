@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vm_terraform_test
+  description: A description of vm_terraform_test
+  #more?
+spec:
+  vm_size: size
+  type: service
+  owner: backstage
+  lifecycle: experimental
+
